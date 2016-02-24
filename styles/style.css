@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #e9eaed;
+}
+.page-header {
+  background: #44619d;
+  height: 43px;
+  line-height: 43px;
+  border-bottom: 1px solid #1c316c
+}
+.page-header h1 {
+  margin: 0 8px 0 0;
+}
+.container {
+  max-width: 1010px;
+  margin: 0 auto;
+}
+.page-header h1,
+.page-header .search {
+  float: left;
+}
+.page-header .search {
+  position: relative;
+}
+.search__field {
+  padding: 3px 9px 4px;
+  border: 0;
+  border-radius: 2px;
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+  width: 375px;
+}
+.search__button {
+  background: #fff url(../images/search-icon.png) 50% 50% no-repeat;
+  border: 0;
+  font-size: 0;
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+.complemntary {
+  width: 160px;
+  float: right;
+}
+.main-content {
+  width: 850px;
+  float: left;
+}
+.cover {
+  height: 310px;
+  background-image: url(../images/cover-image.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+.cover h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.cover p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+}
+.cover__avatar {
+  position: absolute;
+  left: 15px;
+  bottom: -30px;
+  border: 1px solid #ccc;
+  background: red;
+}
+.cover__avatar img {
+  vertical-align: top;
+}
+.cover__info {
+  position: absolute;
+  color: #fff;
+  left: 200px;
+  bottom: 15px;
+  text-shadow: 1px 1px 5px #000;
+}
+.interaction-links {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.interaction-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.interaction-links li {
+  display: inline-block;
+}
